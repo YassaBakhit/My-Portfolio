@@ -1,0 +1,17 @@
+.app-styles {
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--darker-bg);
+  overflow-x: hidden;
+}
+
+main {
+  position: relative;
+  z-index: 2;
+}
+
+section {
+  position: relative;
+  z-index: 2;
+  scroll-margin-top: 80px;
+}
